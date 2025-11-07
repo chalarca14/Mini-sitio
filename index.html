@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="login-container">
@@ -28,12 +28,13 @@
                 <a href="#" onclick="alert('Funcionalidad de recuperación'); return false;">¿Olvidaste tu contraseña?</a>
             </div>
             
-            <button type="submit" class="btn-login" onclick="alert('¡Login exitoso!'); return false;">Iniciar Sesión</button>
+            <button type="submit" id="btnLogin" class="btn-login">Iniciar Sesión</button>
             
             <div class="signup-link">
                 ¿No tienes una cuenta? <a href="#" onclick="alert('Ir a registro'); return false;">Regístrate</a>
             </div>
         </form>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
